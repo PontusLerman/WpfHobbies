@@ -51,6 +51,7 @@
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
+                    
                     <TextBox Text="{Binding ElementName=FunRatingSlider, 
                                         Path=Value,
                                         Mode=TwoWay,
