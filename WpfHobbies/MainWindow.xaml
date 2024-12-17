@@ -19,8 +19,10 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal">
-            <Button Command="{Binding AddCommand}">Add hobby</Button>
-            <Button Command="{Binding RemoveCommand}">Remove hobby</Button>
+            <Button Background="{StaticResource ButtonSuccess}"
+                    Command="{Binding AddCommand}">Add hobby</Button>
+            <Button Background="{StaticResource ButtonDanger}"
+                    Command="{Binding RemoveCommand}">Remove hobby</Button>
         </StackPanel>
 
         <ListView Grid.Row="1"
