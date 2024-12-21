@@ -25,9 +25,7 @@
                     Command="{Binding RemoveCommand}">Remove hobby</Button>
         </StackPanel>
 
-        <Border Grid.Row="1"
-                BorderThickness="0"
-                BorderBrush="Black">
+        <Border Grid.Row="1">
             <ListView Grid.Row="1"
                   Background="{StaticResource PrimaryBackgroundColor}"
                   ItemsSource="{Binding Hobbies}"
